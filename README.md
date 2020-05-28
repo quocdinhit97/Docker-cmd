@@ -8,6 +8,9 @@ Ex: docker build . -t teaching-time </pre>
 ## view image
 <pre> docker image ls -abc </pre>
 
+## view all image
+<pre> docker images </pre>
+
 ## view container runing
 <pre>docker ps (-a) </pre>
 
@@ -15,7 +18,7 @@ Ex: docker build . -t teaching-time </pre>
 <pre>docker container rm containerName
 Ex: docker container rm teaching-time </pre>
 
-## emove image
+## remove image
 <pre> docker image rm imageID
 Ex: docker image rm abc </pre>
 
