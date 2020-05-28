@@ -2,6 +2,10 @@
 <pre>docker build . -t imageName
 Ex: docker build . -t teaching-time </pre>
 
+## docker run container
+<pre>docker run -p mapPort:portExpose --name nameContainer -t imageName
+Ex: docker run -p 8080:8001 --name app-demo -t teaching-time </pre>
+
 ## view all container
 <pre> docker container ls -a (-s, -l) </pre>
 
